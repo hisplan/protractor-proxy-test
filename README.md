@@ -5,10 +5,10 @@ $ sudo webdriver-manager start
 ```
 
 ```bash
-$ protractor conf.chrome.js
-$ protractor conf.firefox.js
-$ protractor conf.safari.js
-$ protractor conf.phantomjs.js
+$ protractor configs/conf.chrome.js
+$ protractor configs/conf.firefox.js
+$ protractor configs/conf.safari.js
+$ protractor configs/conf.phantomjs.js
 ```
 
 ## Operating System

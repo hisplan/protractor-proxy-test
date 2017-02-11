@@ -18,6 +18,6 @@ exports.config = {
 
     framework: 'jasmine',
 
-    specs: ['test.spec.js'],
+    specs: ['../test/*.spec.js'],
 
 };

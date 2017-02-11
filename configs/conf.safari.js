@@ -5,10 +5,8 @@ exports.config = {
     // the address of a proxy server to use for the connection to the Selenium Server
     // webDriverProxy: 'http://localhost:3128',
 
-    directConnect: true,
-
     capabilities: {
-        'browserName': 'chrome',
+        'browserName': 'safari',
         proxy: {
             proxyType: 'manual',
             httpProxy: 'localhost:3128',
@@ -18,6 +16,6 @@ exports.config = {
 
     framework: 'jasmine',
 
-    specs: ['test.spec.js'],
+    specs: ['../test/*.spec.js'],
 
 };
