@@ -2,6 +2,7 @@ exports.config = {
 
     seleniumAddress: 'http://192.168.1.67:4444/wd/hub',
 
+    // the address of a proxy server to use for the connection to the Selenium Server
     // webDriverProxy: 'http://localhost:3128',
 
     directConnect: true,
