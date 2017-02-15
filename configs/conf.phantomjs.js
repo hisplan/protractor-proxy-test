@@ -6,7 +6,7 @@ exports.config = {
     // webDriverProxy: 'http://localhost:3128',
 
     capabilities: {
-        'browserName': 'phantomjs',
+        browserName: 'phantomjs',
         proxy: {
             proxyType: 'manual',
             httpProxy: 'localhost:3128',

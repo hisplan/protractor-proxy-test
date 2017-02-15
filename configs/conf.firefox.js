@@ -8,7 +8,7 @@ exports.config = {
     directConnect: true,
 
     capabilities: {
-        'browserName': 'firefox',
+        browserName: 'firefox',
         proxy: {
             proxyType: 'manual',
             httpProxy: 'localhost:3128',

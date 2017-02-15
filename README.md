@@ -37,6 +37,7 @@ Protractor seems picky sometimes. Here'e the versions of the software that I use
 - Firefox 51.0.1
 - Requires `directConnect: true`
 - Install a separate driver
+
     ```bash
     brew install geckodriver
     ```
@@ -45,6 +46,7 @@ Protractor seems picky sometimes. Here'e the versions of the software that I use
 
 - PhantomJS 2.1.1
 - Install globally
+
     ```bash
     npm install -g phantomjs
     ```

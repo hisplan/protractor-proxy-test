@@ -8,7 +8,7 @@ exports.config = {
     directConnect: true,
 
     capabilities: {
-        'browserName': 'chrome',
+        browserName: 'chrome',
         proxy: {
             proxyType: 'manual',
             httpProxy: 'localhost:3128',

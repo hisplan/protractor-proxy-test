@@ -6,7 +6,7 @@ exports.config = {
     // webDriverProxy: 'http://localhost:3128',
 
     capabilities: {
-        'browserName': 'safari',
+        browserName: 'safari',
         proxy: {
             proxyType: 'manual',
             httpProxy: 'localhost:3128',
